@@ -1,0 +1,16 @@
+void main() {
+  int a = 10;
+  int b = 20;
+
+  // Arithmetic operators +, -, /, *, %, ++, --
+
+  print(a + b);
+  print(b - a);
+  print(a * b);
+  print(b / 3);
+  print(b % 3); // gives reminder
+  a++;
+  print(a);
+  b--;
+  print(b);
+}
