@@ -1,0 +1,19 @@
+void main() {
+  String name = "ram";
+
+  String classAttended = "flutter";
+/*
+  print(name + classAttended);
+  print(name + " ===>>> " + classAttended);
+  print("$name >>>> $classAttended");
+
+*/
+
+  String student = "ram";
+  String title = "Mr. $student";
+  print("Hello, $title, Good Morning");
+
+  String? grade; // grade not mentioned so it gives null safety
+  grade = "second";
+  print(grade);
+}
