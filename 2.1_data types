@@ -1,0 +1,18 @@
+void main() {
+  int age = 25;
+  double withTax = 32343.32432;
+  bool isPassed = true;
+  String name = "dart";
+  String bioRam = ''' jsdfljsdkl
+                jsdlijfkasjf
+                   hdfsioajfil
+                   jsdiojaiof
+                   ashdoifjauohcdaskljf
+                    dsajiojfoia''';
+
+  print(age);
+  print(withTax);
+  print(isPassed);
+  print(name);
+  print(bioRam);
+}
