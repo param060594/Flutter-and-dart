@@ -1,0 +1,22 @@
+void main() {
+  int price = 20;
+
+  // used for single line comment
+
+  ///
+  ///
+  ///
+  ///  used for multi line comment
+  /// 
+  
+
+  /**
+   * 
+   * 
+   * 
+   * 
+   * 
+   * used for paragraph comments
+   * 
+   */
+}
