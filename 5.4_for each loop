@@ -1,0 +1,6 @@
+void main() {
+  List<String> namesList = ["Sitha", "Ram", "Githa", "Laxman"];
+  namesList.forEach((element) {
+    print("Name is $element");
+  });
+}
