@@ -1,0 +1,18 @@
+void main() {
+  int marks = 50;
+
+  /// lessthan 35, fail, grade D
+  /// lessthan 50 and morethan or equal to 35, pass, grade C
+  /// lessthan 70 and morethan or equal to 50, pass, grade B
+  /// morethan or equal 70, pass, grade A
+
+  if (marks >= 70) {
+    print("Student Passed , got Grade A");
+  } else if (marks >= 50 && marks < 70) {
+    print("Student Passed , got Grade B");
+  } else if (marks >= 35 && marks < 50) {
+    print("Student Passed , got Grade C");
+  } else if (marks < 35) {
+    print("Studend Failed , got Grade D");
+  }
+}
