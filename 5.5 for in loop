@@ -1,0 +1,6 @@
+void main() {
+  List<String> namesList = ["Rama", "Sitha", "Lakshman", "Anjan"];
+  for (String name in namesList) {
+    print("Invitation Name     ====>>>>  " + name);
+  }
+}
