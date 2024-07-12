@@ -1,0 +1,7 @@
+void main() {
+  int percentage = 85;
+
+  String status = percentage > 70 ? "eligible" : "not eligible";
+
+  print(status);
+}
