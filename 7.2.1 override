@@ -1,0 +1,7 @@
+import '7.2.0 override.dart';
+
+void main() {
+  Employee employee = Employee();
+  employee.doWalk();
+  employee.age;
+}
