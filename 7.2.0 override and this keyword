@@ -11,6 +11,7 @@ class Human {
 class Employee extends Human {
   @override
   doWalk() {
+    print(this.age = 20);
     print(super.age = 10);
 
     print("this is walk from child");
