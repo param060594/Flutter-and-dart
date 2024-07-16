@@ -1,0 +1,18 @@
+import 'dart:math';
+
+void main() {
+  const double piValue = 3.16; // main method lo const keyword use
+
+  final int employeeId;
+
+  employeeId = AppConfigre.getEmpId;
+
+  print(employeeId);
+}
+
+class AppConfigre {
+  static const String appName =
+      "Shriwp"; // class lo static const keywords use cheyyli
+
+  static int getEmpId = 1233;
+}
