@@ -1,0 +1,12 @@
+void main() {
+  var username = "sai";
+  //  username = 123; // it throws error
+
+  print(username.runtimeType);
+
+  dynamic response = "Happy";
+  response = 123;
+
+  /// both can be run, why because of dynamic keyword
+  print(response.runtimeType);
+}
