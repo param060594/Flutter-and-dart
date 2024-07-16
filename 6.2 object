@@ -4,6 +4,13 @@ void main() {
   Employee employee = Employee();
   employee.employeeName = "Charan";
   employee.getEmployeeDetails();
+
+  // employee2
+  Employee employee2 = Employee();
+  employee2.companyName = "Sai Technologies";
+  employee2.employeeId = 7638;
+  employee2.employeeName = "Ranjith";
+  employee2.getEmployeeDetails();
 }
 
 class Employee {
