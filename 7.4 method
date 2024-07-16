@@ -1,0 +1,17 @@
+void main() {
+  ShippingCart shippingcharge = ShippingCart();
+  int finalamount = shippingcharge.calculateShippingCharge(100);
+  print("charge with tax $finalamount");
+}
+
+class ShippingCart {
+  int calculateShippingCharge(int amount) {
+    print("charge without tax $amount");
+    amount = amount + 34;
+    return amount;
+  }
+
+  openCart() {}
+
+  clearCart() {}
+}
