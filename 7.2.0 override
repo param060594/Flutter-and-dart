@@ -1,0 +1,22 @@
+class Human {
+  String? dob;
+  int? age;
+  doWalk() {
+    print("He will go to walk");
+  }
+
+  gotoWork() {}
+}
+
+class Employee extends Human {
+  @override
+  doWalk() {
+    print(super.age = 10);
+
+    print("this is walk from child");
+  }
+}
+
+class Pilot extends Human {
+  doFly() {}
+}
