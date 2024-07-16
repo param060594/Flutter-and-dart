@@ -1,0 +1,20 @@
+void main() {
+  // object starts with lower camel case
+  // Syntax:>> Classname objectName = ClassName();
+  Employee employee = Employee();
+  employee.employeeName = "Charan";
+  employee.getEmployeeDetails();
+}
+
+class Employee {
+  // variables
+  int employeeId = 98768;
+  String companyName = "Param Tech";
+  late String employeeName;
+
+// Methods or functions
+  getEmployeeDetails() {
+    print(
+        "My name is $employeeName, I am working in $companyName and my employee id is $employeeId");
+  }
+}
