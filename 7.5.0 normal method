@@ -1,0 +1,8 @@
+void main() {
+  //sum(x: 10, y: 20, z: 30);
+  sum();
+}
+
+sum({int x = 10, int y = 15, int z = 30}) {
+  print(x + y + z);
+}
