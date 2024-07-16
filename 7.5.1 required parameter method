@@ -1,0 +1,7 @@
+void main() {
+  sum(x: 10, y: 20, z: 30);
+}
+
+sum({required int x, required int y, required z}) {
+  print(x + y + z);
+}
