@@ -1,0 +1,31 @@
+void main() {
+  // object starts with lower camel case
+  // Syntax:>> Classname objectName = ClassName();
+  Employee employee = Employee();
+  employee.employeeName = "Charan";
+  employee.getEmployeeDetails();
+
+  // employee2
+  Employee employee2 = Employee();
+  employee2.companyName = "Sai Technologies";
+  employee2.employeeId = 7638;
+  employee2.employeeName = "Ranjith";
+  employee2.getEmployeeDetails();
+// with out create the object we can call country
+  Employee.country;
+}
+
+class Employee {
+  // variables
+  int employeeId = 98768;
+  String companyName = "Param Tech";
+  late String employeeName;
+// use static in place of late
+  static String country = "India";
+
+// Methods or functions
+  getEmployeeDetails() {
+    print(
+        "My name is $employeeName, I am working in $companyName and my employee id is $employeeId");
+  }
+}
