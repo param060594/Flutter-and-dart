@@ -1,0 +1,17 @@
+class Human {
+  String? dob;
+  int? age;
+  doWalk() {
+    print("He will go to walk");
+  }
+
+  gotoWork() {}
+}
+
+class Employee extends Human {
+  doAttend() {}
+}
+
+class Pilot extends Human {
+  doFly() {}
+}
