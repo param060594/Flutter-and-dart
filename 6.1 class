@@ -1,0 +1,12 @@
+void main() {}
+
+class Mycollege {
+  // variables
+  String collegeName = "MVR college";
+  int collegeNumber = 1324;
+
+// Methods or functions
+  getCollegeDetails() {
+    print("$collegeName $collegeNumber");
+  }
+}
