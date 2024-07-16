@@ -1,7 +1,13 @@
 void main() {
-  sum(x: 10, y: 20, z: 30);
+  sum();
+
+  sum2(x: 10, y: 20, z: 30);
 }
 
-sum({required int x, required int y, required z}) {
+sum({int x = 10, int y = 15, int z = 30}) {
+  print(x + y + z);
+}
+
+sum2({required int x, required int y, required z}) {
   print(x + y + z);
 }
