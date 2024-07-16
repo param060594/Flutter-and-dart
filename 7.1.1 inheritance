@@ -1,0 +1,7 @@
+import '7.1.0 inheritance.dart';
+
+void main() {
+  Employee employee = Employee();
+
+  employee.doWalk();
+}
