@@ -1,0 +1,34 @@
+void main() {
+// object
+  Vehilcle vehilcle1 = Vehilcle("Thor", 2873467823, 12);
+  vehilcle1.printVehicleDetails();
+
+  Vehilcle vehilcle2 = Vehilcle("Maruthi 800", 2894293, 25);
+  vehilcle2.printVehicleDetails();
+// named constructor
+  Vehilcle vehilcleHeavy = Vehilcle.heavyVehicles("Lorry", 5689, 11);
+  vehilcleHeavy.printVehicleDetails();
+}
+
+class Vehilcle {
+  // variables
+  late String vehicleName;
+  late int vehicleNumber;
+  late int vehicleAge;
+  // constructor
+  //Vehilcle(this.vehicleName, this.vehicleNumber, this.vehicleAge) {}
+  Vehilcle(String name, int number, int age) {
+    vehicleName = name;
+    vehicleNumber = number;
+    vehicleAge = age;
+  }
+// named constructor
+  Vehilcle.heavyVehicles(
+      this.vehicleName, this.vehicleNumber, this.vehicleAge) {}
+
+  // method
+  printVehicleDetails() {
+    print(
+        "My vehicle name is $vehicleName, its number is $vehicleNumber and its age is $vehicleAge ");
+  }
+}
