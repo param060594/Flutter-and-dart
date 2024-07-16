@@ -1,12 +1,14 @@
 void main() {}
 
-class Mycollege {
+class Employee {
   // variables
-  String collegeName = "MVR college";
-  int collegeNumber = 1324;
+  int employeeId = 98768;
+  String companyName = "Param Tech";
+  late String employeeName;
 
 // Methods or functions
   getCollegeDetails() {
-    print("$collegeName $collegeNumber");
+    print(
+        "My name is $employeeName, I am working in $companyName and my employee id is $employeeId");
   }
 }
