@@ -1,0 +1,10 @@
+void main() {
+  Set<int> myNums = {12, 23, 34, 45, 12, 23};
+
+  print(myNums);
+  print(myNums.length);
+
+  myNums.forEach((element) {
+    print(element);
+  });
+}
