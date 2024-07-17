@@ -1,0 +1,10 @@
+void main() {
+  Map<String, dynamic> myBio = {
+    "name": "param",
+    "age": 20,
+    "age": 30,
+    "my skills": ["flutter", "dart"]
+  };
+
+  print(myBio);
+}
