@@ -1,0 +1,9 @@
+void main() {
+  List<String> namesList = ["Ram", "Sita", "Laxman", "Ravan"];
+
+  namesList.add("Bharat");
+  namesList.addAll(["raju", "yadav"]);
+  namesList.remove("Ravan");
+
+  print(namesList);
+}
