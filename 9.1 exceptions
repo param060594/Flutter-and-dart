@@ -1,0 +1,20 @@
+void main() {
+  List namesList = ["Rama", "Sita", "Laxman"];
+
+  print(namesList);
+
+  // range errors
+  print(namesList[9]);
+
+  // conversion
+  String percentage = "87";
+  int? per;
+  per = int.parse(percentage);
+  print(per);
+
+  // fromat exception
+  String percentage2 = "as";
+  int? perc;
+  perc = int.parse(percentage2);
+  print(perc);
+}
