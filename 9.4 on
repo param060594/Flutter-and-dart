@@ -1,0 +1,13 @@
+void main() {
+  try {
+    int age = 23;
+    String dbAge = "we";
+    // String dbAge = "84";
+    age = int.parse(dbAge);
+    print(age);
+  } on FormatException {
+    print("found a FormatException, invalid dbAge date");
+  } catch (error) {
+    print(error);
+  }
+}
