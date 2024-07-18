@@ -1,0 +1,6 @@
+void main() {
+  List finalNamesList = ["raju", "raghav", ...namesList];
+  print(finalNamesList);
+}
+
+List<String> namesList = ["Ram", "Laxman", "Sita", "Ravan"];
