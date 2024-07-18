@@ -1,0 +1,14 @@
+void main() {
+  print(getNameFromList(6));
+}
+
+String getNameFromList(int Id) {
+  try {
+    List namesList = ["Gita", "Ram", "Abdul", "Joseph"];
+    String name = namesList[Id];
+    return name;
+  } catch (error) {
+    print(error);
+    return "NA";
+  }
+}
