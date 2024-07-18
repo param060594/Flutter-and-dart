@@ -1,0 +1,17 @@
+void main() {
+  //amountWithDraw(40);
+  // amountWithDraw(-30);  // exception throwing
+  try {
+    amountWithDraw(-50);
+  } catch (error) {
+    print(error);
+  }
+}
+
+amountWithDraw(int withDrawnAmount) {
+  if (withDrawnAmount < 0) {
+    throw Exception("withdrawn amount should not ve -Ve");
+  } else {
+    print("Valid withDrawnamount : $withDrawnAmount");
+  }
+}
