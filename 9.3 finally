@@ -1,0 +1,14 @@
+void main() {
+  try {
+    List namesList = ["Gita", "Ram", "Abdul", "Joseph"];
+
+    print(namesList);
+    print(namesList[2]);
+  } catch (error) {
+    print(error);
+  } finally {
+    // with or without the error in the catch block finally must be execute
+    String? names;
+    print(names);
+  }
+}
