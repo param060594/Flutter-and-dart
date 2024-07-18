@@ -1,0 +1,20 @@
+void main() {
+  Person person = Person();
+  person.name = "john";
+  person.age = 40;
+  person.sayHello();
+
+  // casecade
+  var person2 = Person()
+    ..name = "ram"
+    ..age = 34
+    ..sayHello();
+}
+
+class Person {
+  String? name;
+  int? age;
+  void sayHello() {
+    print("Hello, My name is $name and My age is $age");
+  }
+}
