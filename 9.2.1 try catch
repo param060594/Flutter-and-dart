@@ -1,0 +1,12 @@
+void main() {
+  try {
+    List namesList = ["Rama", "Sita", "Laxman", "Ravan"];
+
+    print(namesList);
+
+    // range errors
+    print(namesList[9]);
+  } catch (error) {
+    print(error);
+  }
+}
