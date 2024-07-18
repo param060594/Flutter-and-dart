@@ -1,0 +1,9 @@
+void main() {
+  print(DeliveryStatusEnum.values);
+  print(AccountStatusEnum.active);
+  print(DeliveryStatusEnum.onway.index);
+}
+
+enum DeliveryStatusEnum { ordered, paid, outforDelivery, onway }
+
+enum AccountStatusEnum { active, inActive }
